@@ -1,4 +1,4 @@
-import { getStrapiURL } from "./getStrapiAPI";
+import { getStrapiURL } from "./fetchAPI";
 
 export function getStrapiMedia(media) {
   const { url } = media.attributes;
